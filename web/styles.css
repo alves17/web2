@@ -1,0 +1,102 @@
+/* Resetando estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e8f5e9;  /* Cor verde suave para o fundo */
+    color: #2c6b2f;  /* Cor verde escuro para o texto */
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+    text-align: center;
+    background-color: #388e3c;  /* Cor verde mais escura */
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+/* Seção principal (catálogo) */
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#catalogo {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.plantas {
+    background-color: #a5d6a7;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.plantas img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.plantas p {
+    margin-top: 10px;
+    font-size: 1.1rem;
+    color: #2d6a2f;
+}
+
+/* Efeito de hover para as plantas */
+.plantas:hover {
+    transform: scale(1.1);
+}
+
+/* Seção de informações */
+#informacao {
+    background-color: #81c784;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+#informacao h2 {
+    font-size: 2rem;
+    color: #1b5e20;
+}
+
+#descricao {
+    font-size: 1.1rem;
+    color: #2d6a2f;
+    margin-top: 20px;
+}
+
+/* Rodapé */
+footer {
+    background-color: #388e3c;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 10px;
+}

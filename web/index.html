@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Floresta Verde - Catálogo de Plantas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Floresta Verde</h1>
+        <p>Explore nosso catálogo de plantas e descubra o papel vital das folhas na natureza!</p>
+    </header>
+
+    <main>
+        <section id="catalogo">
+            <h2>Catálogo de Plantas</h2>
+            <div class="plantas" id="planta1" onclick="exibirInfo('planta1')">
+                <img src="img/saojorge.png" alt="Planta 1">
+                <p>Planta 1</p>
+            </div>
+            <div class="plantas" id="planta2" onclick="exibirInfo('planta2')">
+                <img src="img/vitoriaregia.jpg" alt="Planta 2">
+                <p>Planta 2</p>
+            </div>
+            <div class="plantas" id="planta3" onclick="exibirInfo('planta3')">
+                <img src="https://via.placeholder.com/150/66bb6a/ffffff?text=Planta+3" alt="Planta 3">
+                <p>Planta 3</p>
+            </div>
+        </section>
+
+        <section id="informacao">
+            <h2>Informações sobre a planta</h2>
+            <div id="descricao">
+                <p>Selecione uma planta para saber mais sobre ela.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Floresta Verde. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
